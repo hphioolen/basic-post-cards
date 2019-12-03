@@ -1,0 +1,16 @@
+{
+  "name": "basic-post-cards-cgb-guten-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@wordpress/url": "^2.8.2",
+    "cgb-scripts": "1.22.0",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.15"
+  }
+}

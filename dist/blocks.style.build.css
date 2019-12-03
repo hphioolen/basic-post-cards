@@ -1,0 +1,55 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-basic-post-cards {
+  background: orangered;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+.wp-block-indrukwekkend-latest-posts.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* see notes below */
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 1rem; }
+  .wp-block-indrukwekkend-latest-posts.cards .card {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+    background: #fff; }
+    .wp-block-indrukwekkend-latest-posts.cards .card .thumbnail img {
+      fill: #c7c4c4;
+      width: 100%;
+      opacity: 1;
+      background: var(--categry-bg-color); }
+    .wp-block-indrukwekkend-latest-posts.cards .card-content {
+      font-size: .75rem;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex: 1;
+      flex: 1; }
+    .wp-block-indrukwekkend-latest-posts.cards .card footer {
+      border-top: 2px solid #e7e7e7;
+      margin: .5rem 0 0;
+      min-height: 30px; }
