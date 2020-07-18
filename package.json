@@ -11,6 +11,6 @@
     "@wordpress/url": "^2.8.2",
     "cgb-scripts": "1.22.0",
     "classnames": "^2.2.6",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
